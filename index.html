@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Profile</title>
+    <title>Anshit Kumar - GitHub Profile</title>
     <style>
         * {
             margin: 0;
@@ -34,13 +34,6 @@
             width: 260px;
             height: 260px;
             border-radius: 50%;
-            overflow: hidden;
-        }
-
-        .profile-image img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
         }
 
         .profile-info h1 {
@@ -48,7 +41,7 @@
             margin-bottom: 10px;
         }
 
-        .profile-info .username {
+        .username {
             font-size: 20px;
             color: #8b949e;
             margin-bottom: 20px;
@@ -74,6 +67,7 @@
             background-color: #161b22;
             border-radius: 6px;
             padding: 20px;
+            margin-bottom: 20px;
         }
 
         .repo-item {
@@ -85,39 +79,36 @@
             border-bottom: none;
         }
 
-        .repo-item h3 {
+        .repo-name {
             color: #58a6ff;
-            margin-bottom: 10px;
+            font-weight: 600;
+            text-decoration: none;
         }
 
-        .repo-item p {
+        .repo-description {
+            margin: 10px 0;
             color: #8b949e;
-            font-size: 14px;
         }
 
-        .language-dot {
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            display: inline-block;
-            margin-right: 5px;
+        .repo-stats {
+            display: flex;
+            gap: 15px;
+            font-size: 12px;
+            color: #8b949e;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="profile-header">
-            <div class="profile-image">
-                <img src="https://via.placeholder.com/260" alt="Profile Picture">
-            </div>
+            <img src="https://via.placeholder.com/260" alt="Profile Picture" class="profile-image">
             <div class="profile-info">
-                <h1>John Doe</h1>
-                <div class="username">@johndoe</div>
+                <h1>Anshit Kumar</h1>
+                <div class="username">@anshitkumar</div>
                 <div class="bio">
-                    Full-stack developer passionate about creating meaningful applications.
-                    Currently working on exciting projects and learning new technologies.
+                    Software Developer | Full Stack Engineer | Open Source Enthusiast
                 </div>
                 <div class="stats">
                     <div class="stat-item">
                         <svg height="16" viewBox="0 0 16 16" width="16" fill="#8b949e">
-                            <path d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714
+                            <path d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.
